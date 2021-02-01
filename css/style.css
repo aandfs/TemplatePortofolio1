@@ -1,0 +1,361 @@
+
+.masthead {
+  background-image: url('../img/bg.jpg');
+  float: left;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+}
+
+.fluid-black-layer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  z-index: 0;
+}
+
+.mas{
+  font-size: 48px;
+  font-weight: 700;
+  color:white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.lead{
+  max-width: 600px;
+  color:
+  white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 38px;
+  margin: 0px auto;
+}
+
+h2 {
+  font-size: 38px;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333;
+}
+
+.lines {
+  margin: auto;
+  margin-top: auto;
+  width: 70px;
+  border-top: 2px solid #61D2B4;
+  margin-top: 15px;
+  padding-bottom: 40px;
+}
+
+.lines2 {
+  width: 70px;
+  border-top: 1px solid white;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+
+}
+
+p{
+  text-align: justify;
+  font-size: 16px;
+}
+
+p.p-center{
+  text-align: center;
+  font-size: 16px;
+}
+
+p span{
+  color: orange;
+  padding-left: 10px;
+}
+
+.first-layout-section {
+  float: left;
+  width: 100%;
+  padding-bottom: 100px;
+  padding-top: 80px;
+  background-color: #f7f7f7;
+}
+
+.second-layout-section {
+  float: left;
+  width: 100%;
+  padding-bottom: 100px;
+  padding-top: 80px;
+  background-color: #dfe3ee;
+}
+
+.footer-layout-section {
+  background-image: url(../img/wool.png);
+  float: left;
+  width: 100%;
+  padding: 30px 0px;
+  color: white;
+}
+
+h6{
+  color: white;
+  font-weight: 600;
+}
+
+.btn-wa{
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.fa-whatsapp{
+  color: #1fe76e;
+}
+
+.btn-wa:hover{
+  background-color: #1fe76e;
+  border-color: #1fe76e;
+  color: white;
+}
+
+.btn-wa:hover .fa-whatsapp{
+  color: white;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  button filter
+/*-----------------------------------------------------------------------------------*/
+  ul.filters{
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+}
+
+  ul.filters > li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid #FE7A7B;
+    margin: 0px 10px 0px 0px;
+
+}
+
+  ul.filters > li > a{
+    display: block;
+    color: #434e5e;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+  ul.filters > li > a:hover{
+    background-color: #e6e9ed;
+}
+
+  ul.filters > li.active > a{
+    color: #fff;
+    background-color: #28bea8;
+}
+
+.portfolio-list{
+  float: right;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  about
+/*-----------------------------------------------------------------------------------*/
+
+.progress{
+  height: 35px;
+  border-radius: 0px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.progress-bar{
+  background-color: teal;
+}
+
+.text-skill{
+  float: left;
+  width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h3.text-about{
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+/*-----------------------------------------------------------------------------------*/
+/*  Portfolio
+/*-----------------------------------------------------------------------------------*/
+.text-center{
+    text-align: center !important;
+  }
+
+.item {
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  
+.item img {
+  width: 100%;
+  height: 255px;
+  object-fit: cover;
+  transition: transform 0.5s, filter 0.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(40%);
+}
+
+.item img:hover {
+  filter: brightness(100%);
+  transform: scale(1.1);
+}
+
+.text-judul{
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: 700;
+  color: #3f444a;
+  min-height: 36px;
+}
+
+.text-kategori{
+  margin-top: 0px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #7a838e;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  layanan
+/*-----------------------------------------------------------------------------------*/
+.item-boxes {
+  text-align: center;
+  height: 350px;
+  padding: 40px 20px;
+  margin-bottom: 15px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
+  -webkit-box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
+  -moz-box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.item-boxes .icon {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 3px 15px 0px rgba(167, 167, 167, 0.16);
+  display: inline-block;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.item-boxes .icon i {
+  font-size: 26px;
+  line-height: 60px;
+  color: #61D2B4;
+}
+
+.item-boxes h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.item-boxes:hover .icon {
+  background: #61D2B4;
+}
+
+.item-boxes:hover .icon i {
+  color: #fff;
+}
+
+.item-boxes:hover{
+  border-color: #FE7A7B;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  footer
+/*-----------------------------------------------------------------------------------*/
+.sosmed a {
+  color: #aaa;
+  float: left;
+  border: 1px solid #aaa;
+  margin: 5px;
+  width: 60px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 16px 0px;
+}
+
+.sosmed a:hover {
+  color: white;
+  border-color: white;
+}
+
+.underline{
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.underline:after {
+  content: "";
+  width: 32px;
+  height: 1px;
+  background: #c2c2c2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  responsive
+/*-----------------------------------------------------------------------------------*/
+
+@media all and (max-width: 768px){
+  ul.filters > li{
+    margin: 0px 5px 0px 0px;
+  }
+
+  .portfolio-list{
+    float: left;
+  }
+  
+}

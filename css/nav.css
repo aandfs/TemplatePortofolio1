@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
+
+.navbar-brand  span{
+	color: #de7119;
+	font-size:25px;font-weight:700;letter-spacing:0.1em;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+.navbar-brand {
+	color: #fff;
+	font-size:25px;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+	font-weight:700;
+	letter-spacing:0.1em;
+}
+
+.navbar-nav .nav-item .nav-link{
+	padding: 0.5em 1em!important;
+	font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+  	font-family: 'Lato', sans-serif;
+}
+.navbar-nav .nav-item .nav-link:hover{color:#de7119;}
+.navbar-expand-md .navbar-nav .dropdown-menu{
+	border-top:3px solid #de7119;
+}
+
+#banner{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+a:hover{
+	color: white;
+}
+
+	
+/* ======================================================= */
+/*                      sticky-menu                        */
+/* ======================================================= */
+.sticky-menu {
+    position: fixed;
+    width: 100%;
+    transform: translateY(-100%);
+    z-index: 2;
+    -webkit-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    transition: all 600ms ease;
+    background: #212529;
+    border-bottom: 2px solid #de7119;
+    padding: 1px 0px;
+}
+
+/* ======================================================= */
+/*                      nav menu	                     */
+/* ======================================================= */
+
+/* mobile view */
+@media (max-width:500px)
+{
+	.navbar {
+		padding-top: 0;
+		padding-bottom: 0;
+		background-color: #212529;
+	}
+
+	.sticky-menu {
+		transform: translateY(-100%) !important;
+		border: 0px;
+	}
+
+	#banner{
+		position: fixed;
+		z-index: 1;
+	}
+
+}
+
+@media (max-width:768px){
+	.navbar {
+		padding-top: 0;
+		padding-bottom: 0;
+		background-color: #212529;
+	}
+
+	.sticky-menu {
+		transform: translateY(-100%) !important;
+		border: 0px;
+	}
+
+	#banner{
+		position: fixed;
+		z-index: 1;
+	}
+}
+ 
